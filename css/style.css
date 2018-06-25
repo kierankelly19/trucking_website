@@ -74,6 +74,16 @@ body, html{
   width: 10px;
 }
 
+#smokey{
+  height: 20em;
+  width: 15em;
+  padding-right: 10em;
+}
+
+#movie-text{
+  padding-right: 1em;
+}
+
 #home{
   position: absolute;
   z-index: 1000;
@@ -121,4 +131,9 @@ h1{
   font-size: 3em;
   margin: 4px;
   padding-top: 1em;
+}
+
+.text-content{
+  padding-left: 10em;
+  padding-right: 10em;
 }
