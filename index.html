@@ -34,7 +34,7 @@
       <script>
         $( document ).ready(function() {
           var off = -($( window ).height()-$('#future').height())/2
-          $('.navbar-link a').smoothScroll({offset: off})
+          $('.smooth-scroll').smoothScroll({offset: off})
         });
       </script>
   </head>
@@ -44,12 +44,12 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid" id="nav-div">
           <ul class="nav navbar-nav">
-            <li class="navbar-link"><a href="#home"><b>Home</b></a></li>
-            <li class="navbar-link"><a href="#truth"><b>The Truth</b></a></li>
-            <li class="navbar-link"><a href="#opportunities"><b>Opportunities</b></a></li>
-            <li class="navbar-link"><a href="#importance"><b>Importance</b></a></li>
-            <li class="navbar-link"><a href="#about"><b>About</b></a></li>
-            <li class="navbar-link"><a href="#future"><b>Future</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#home"><b>Home</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#truth"><b>The Truth</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#opportunities"><b>Opportunities</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#importance"><b>Importance</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#about"><b>About</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#future"><b>Future</b></a></li>
           </ul>
         </div>
       </nav>
@@ -70,7 +70,7 @@
                 What people don’t realize is that trucking helps keeps the entire world running while saving many
                 lives as well; in 2015 alone, they transported a daily average of about 49.3 million tons of freight,
                 including medical supplies, food, water supplies, and daily products that we not only want, but need.
-                See <a href="#importance">Importance</a> for more.
+                See <a class="smooth-scroll" href="#importance">Importance</a> for more.
                 <br>
                 And yet, the general public holds a drastically negative view of trucking, commonly classifying it
                 as an undesirable and low status career, while also maintaining harmful stigmas and stereotypes
