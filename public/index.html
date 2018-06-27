@@ -12,10 +12,10 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
       <script src="js/jquery.smooth-scroll.min.js"></script>
-      <script>!window.jQuery && document.write('<script src="optimus/jquery-1.4.1.min.js"><\/script>')</script>
+      <script>!window.jQuery && document.write('<script src="../optimus/jquery-1.4.1.min.js"><\/script>')</script>
 
       <!-- The raptorize file  -->
-      <script src="optimus/jquery.raptorize.1.0.js"></script>
+      <script src="../optimus/jquery.raptorize.1.0.js"></script>
 
       <!-- For the button version -->
       <script type="text/javascript">
@@ -36,7 +36,7 @@
       <script>
         $( document ).ready(function() {
           var off = -($( window ).height()-$('#future').height())/2
-          $('.smooth-scroll').smoothScroll({offset: off})
+          $('.smooth-scroll').smoothScroll({offset: off, speed: 'auto', autoCoefficient: 2})
         });
       </script>
   </head>
@@ -46,12 +46,12 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid" id="nav-div">
           <ul class="nav navbar-nav">
-            <li class="navbar-link"><a class="smooth-scroll" href="#home"><b>Home</b></a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#truth"><b>The Truth</b></a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#opportunities"><b>Opportunities</b></a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#importance"><b>Importance</b></a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#about"><b>About</b></a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#future"><b>Future</b></a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#home">Home</a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#truth">The Truth</a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#opportunities">Opportunities</a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#importance">Importance</a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#about">About</a></li>
+            <li class="navbar-link"><a class="smooth-scroll" href="#future">Future</a></li>
           </ul>
         </div>
       </nav>
