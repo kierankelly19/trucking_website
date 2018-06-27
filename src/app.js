@@ -1,12 +1,10 @@
 var express = require('express');
-var parser = require('body-parser');
 var http = require('http');
 
 var app = express();
 
 app.use('/', express.static('public'));
-app.use(parser.json());
-app.use(parser.urlencoded({ extended: false }));
+
 
 
 var server = http.createServer(app);
