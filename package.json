@@ -1,0 +1,24 @@
+{
+  "name": "truckin",
+  "version": "1.0.0",
+  "description": "node.js project for trucking website",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdmcnamara/trucking_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdmcnamara/trucking_website/issues"
+  },
+  "homepage": "https://github.com/kdmcnamara/trucking_website#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
