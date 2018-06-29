@@ -152,7 +152,7 @@ ul{
 }
 
 label {
-    color: #222;
+    color: #FFF;
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
@@ -182,7 +182,7 @@ label {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: #FFF;
+        background: #282e34;
         text-align: center;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
@@ -190,14 +190,14 @@ label {
     }
 
     .card .back {
-        background: #222;
+        background: #282e34;
         color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
     }
 
     .card-text{
-      padding-top: 25%;
+
     }
 
     .card-text-content-left{
@@ -210,7 +210,7 @@ label {
 label:hover .card {
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+    box-shadow: 0 20px 20px rgba(255,255,255,.2);
 }
 
 input {
