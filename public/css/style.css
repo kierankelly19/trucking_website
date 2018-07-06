@@ -72,6 +72,7 @@ a {
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
 }
 
 .ptext .border{
@@ -226,4 +227,32 @@ label:hover :checked + .card {
     transform: rotateX(160deg);
     -webkit-transform: rotateX(160deg);
     box-shadow: 0 20px 20px rgba(255,255,255,.2);
+}
+#truth-content {
+    padding: 0 70px;
+}
+
+.section#truth {
+    padding: 50px 10px;
+}
+
+.section#about {
+  padding: 50px 10%;
+  text-align: left;
+}
+
+.section#about h2 {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.section#about h5 {
+    font-size: .9em;
+    margin-bottom: .4em;
+    margin-top: .8em;
+    margin-left: 2em;
+}
+
+.section#about p {
+  margin-left: 4em;
 }
