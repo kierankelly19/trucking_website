@@ -19,6 +19,10 @@
       <script type="text/javascript">
         $(window).load(function() {
           $('.button').raptorize();
+          $('.flip').click(function(){
+              $(this).find('.card').toggleClass('flipped')
+              return true;
+          });
         });
       </script>
 
@@ -37,6 +41,7 @@
           $('.smooth-scroll').smoothScroll({offset: 0, speed: 'auto', autoCoefficient: 3})
         });
       </script>
+
   </head>
 
   <body>
@@ -63,6 +68,7 @@
         </div>
       </div>
       <section class="section section-dark" id="truth">
+        <div id='truth-content'>
         <h2>The Truth of Truck Driving</h2>
           <p class="text-content">
                 The occupations often holding the most respect are often doctors, firefighters, soldiers etc.
@@ -94,80 +100,50 @@
         <p>
           Below are a few of the most common stereotypes followed by the truth that everyone should know:
         </p>
-        <br><br><br><br><br><br><br>
-          <table>
-            <tr>
-              <td class="card-text-content-left">
-                <label>
-                  <input type="checkbox"  />
-                  <div class="card">
-                      <div class="front">
-                        <p class="card-text">
-                          <b>Stereotype:</b><br> Truck drivers are negligent and dangerous on the road.
-                        </p>
-                      </div>
-                      <div class="back">
-                        <p>
-                          <b>Truth:</b><br>Accidents involving trucks receive way more media coverage than car collisions because they are more likely to result in fatalities. Therefore, more attention is placed on the small percentage of negligent truckers and cannot define the entire population of drivers. Responsible drivers significantly outnumber the other, not to mention all the accidents where the trucks aren’t at fault but get the blame anyhow.
-                        </p>
-                      </div>
-                  </div>
-                </label>
-              </td>
-              <td class="card-text-content">
-                <label>
-                  <input type="checkbox"  />
-                  <div class="card">
-                      <div class="front">
-                        <p class="card-text">
-                          <b>Stereotype:</b><br> Truck drivers are dirty and overweight.
-                        </p>
-                      </div>
-                      <div class="back">
-                        <p>
-                          <b>Truth:</b><br>While there are truckers that deal with weight or hygiene issues, many people in other careers deal with the same problems without being on the road for 14 hours a day and away from home for long periods of time. It’s inaccurate to let this stereotype represent the trucking population as a whole.
-                        </p>
-                      </div>
-                  </div>
-                </label>
-              </td>
-              <td class="card-text-content">
-                <label>
-                  <input type="checkbox"  />
-                  <div class="card">
-                      <div class="front">
-                        <p class="card-text">
-                          <b>Stereotype:</b><br> Truck drivers often engage in illicit behavior such as drugs, drinking, and prostitution while on the road.
-                        </p>
-                      </div>
-                      <div class="back">
-                        <p>
-                          <b>Truth:</b><br>Most carriers require immediate drug and alcohol testing prior to hiring as well as random testing throughout their company. While prostitution can happen, it isn’t more prevalent in trucking than it is in other professions and in general, illicit behavior such as these can happen anywhere and in any industry. While that doesn’t make it acceptable, it does make it unfair for this specific one to receive this appalling stereotype. The truckers that do use drugs or alcohol often do so to fight the sleepiness or solitude they may experience, as well as to induce their ability to work more. New technology such as Electronic Logging Devices (ELDs)  and On-Board Computers (OBCs) restrict drivers to only driving 11 hours a day (8 hours straight before a break) as well as allowing them to connect with their family back home. See future for more information on what is coming to increase safety
-                        </p>
-                      </div>
-                  </div>
-                </label>
-              </td>
-              <td class="card-text-content">
-                <label>
-                  <input type="checkbox"  />
-                  <div class="card">
-                      <div class="front">
-                        <p class="card-text">
-                          <b>Stereotype:</b><br> Trucking is a male-only industry.
-                        </p>
-                      </div>
-                      <div class="back">
-                        <p>
-                          <b>Truth:</b><br>While it is true that women only constitute a small amount of the trucking population, there still are many proud trucking women; not to mention, most companies pay by miles which means no wage gap.
-                        </p>
-                      </div>
-                  </div>
-                </label>
-              </td>
-            </tr>
-          </table>
-        </p>
+        </div>
+        <br>
+
+          <div class="flip"> 
+            <div class="card"> 
+              <div class="face front"> 
+                <b>Stereotype:</b><br>Truck drivers are negligent and dangerous on the road.
+              </div> 
+              <div class="face back"> 
+                <b>Truth:</b><br>Accidents involving trucks receive way more media coverage than car collisions because they are more likely to result in fatalities. Therefore, more attention is placed on the small percentage of negligent truckers and cannot define the entire population of drivers. Responsible drivers significantly outnumber the other, not to mention all the accidents where the trucks aren’t at fault but get the blame anyhow.
+              </div> 
+            </div> 
+          </div> 
+          <div class="flip"> 
+            <div class="card"> 
+              <div class="face front"> 
+                <b>Stereotype:</b><br>Truck drivers are dirty and overweight.
+              </div> 
+              <div class="face back"> 
+                <b>Truth:</b><br>While there are truckers that deal with weight or hygiene issues, many people in other careers deal with the same problems without being on the road for 14 hours a day and away from home for long periods of time. It’s inaccurate to let this stereotype represent the trucking population as a whole.
+              </div> 
+          </div> 
+        </div> 
+        <div class="flip"> 
+          <div class="card"> 
+            <div class="face front"> 
+              <b>Sterotype:</b><br>Truck drivers often engage in illicit behavior such as drugs, drinking, and prostitution while on the road.
+            </div> 
+            <div class="face back"> 
+              <b>Truth:</b><br>Most carriers require immediate drug and alcohol testing prior to hiring as well as random testing throughout their company. While prostitution can happen, it isn’t more prevalent in trucking than it is in other professions and in general, illicit behavior such as these can happen anywhere and in any industry. While that doesn’t make it acceptable, it does make it unfair for this specific one to receive this appalling stereotype. The truckers that do use drugs or alcohol often do so to fight the sleepiness or solitude they may experience, as well as to induce their ability to work more. New technology such as Electronic Logging Devices (ELDs) and On-Board Computers (OBCs) restrict drivers to only driving 11 hours a day (8 hours straight before a break) as well as allowing them to connect with their family back home. See future for more information on what is coming to increase safety.
+            </div> 
+        </div> 
+      </div> 
+      <div class="flip"> 
+        <div class="card"> 
+          <div class="face front"> 
+            <b>Sterotype:</b><br>Trucking is a male only industry.
+          </div> 
+          <div class="face back"> 
+            <b>Truth:</b><br>While it is true that women only constitute a small amount of the trucking population, there still are many proud trucking women; not to mention, most companies pay by miles which means no wage gap.
+          </div> 
+        </div> 
+      </div> 
+
       </section>
 
       <div class="pimg2">
