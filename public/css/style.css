@@ -52,7 +52,7 @@ a {
 
 .section {
     text-align: center;
-    padding: 50px 50px;
+    padding: 50px 10px;
 }
 
 .section-light {
@@ -166,7 +166,7 @@ body {
     display: inline-block;
     -webkit-perspective: 800;
     perspective: 800;
-    width: 20%;
+    width: 22%;
     height: 300px;
     position: relative;
     margin: 10px;
@@ -222,5 +222,5 @@ body {
 }
 
 #truth-content {
-    padding: 0 30px;
+    padding: 0 70px;
 }
