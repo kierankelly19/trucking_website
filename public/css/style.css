@@ -92,11 +92,12 @@ a {
 #smokey{
   height: 20em;
   width: 15em;
-  padding-right: 10em;
+  padding-left: 10em;
 }
 
 #movie-text{
-  padding-right: 1em;
+  padding-right: 10em;
+  text-align: left;
 }
 
 #home{
@@ -139,6 +140,8 @@ ul{
 
 .navbar-link{
   letter-spacing: 4px;
+  font-size: 0.75em;
+  text-transform: uppercase;
 }
 
 
@@ -180,6 +183,8 @@ label {
 
     .card div {
         position: absolute;
+        x-index: 50;
+        y-index:50;
         height: 100%;
         width: 100%;
         background: #282e34;
@@ -200,12 +205,14 @@ label {
 
     }
 
-    .card-text-content-left{
-      padding-left: 10em;
+    /* .card-text-content-left{
+      padding-bottom: 4em;
+      padding-left: 30em;
     }
     .card-text-content{
-      padding-left: 4em;
-    }
+      padding-left: 8em;
+      padding-bottom:4em;
+    } */
 
 label:hover .card {
     -webkit-transform: rotateX(20deg);
