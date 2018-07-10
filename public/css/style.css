@@ -96,11 +96,24 @@ a {
   height: 20em;
   width: 15em;
   padding-left: 10em;
+  padding-right: 0em;
 }
 
 #movie-text{
   padding-right: 10em;
+  padding-left: 0em;
   text-align: left;
+
+}
+
+.caption-picture {
+    display: inline-block;
+    width: 30%;
+}
+
+.caption-text {
+  display: inline-block;
+  width: 69%;
 }
 
 #home {
@@ -148,6 +161,8 @@ ul {
 }
 
 .text-content {
+    text-align: justify;
+    text-justify: inter-word;
     padding-left: 10em;
     padding-right: 10em;
 }
