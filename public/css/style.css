@@ -247,12 +247,14 @@ body {
     padding: 50px 10px;
 }
 
-.section#about {
+.section#about,
+.section#opportunities {
   padding: 50px 10%;
   text-align: left;
 }
 
-.section#about h2 {
+.section#about h2,
+.section#opportunities h2 {
     text-align: center;
     margin: 2em 0;
 }
