@@ -92,14 +92,27 @@ a {
     width: 10px;
 }
 
-#smokey {
-    height: 20em;
-    width: 15em;
-    padding-right: 10em;
+#smokey{
+  height: 20em;
+  width: 15em;
 }
 
-#movie-text {
-    padding-right: 1em;
+#movie-text{
+  padding-right: 10em;
+  padding-left: 0em;
+  text-align: left;
+
+}
+
+.caption-picture {
+    display: inline-block;
+    position: relative;
+}
+
+.caption-text {
+  display: inline-block;
+  padding-left: 10em;
+  position: relative;
 }
 
 #home {
@@ -140,11 +153,15 @@ ul {
     opacity: 0.80;
 }
 
-.navbar-link {
-    letter-spacing: 4px;
+.navbar-link{
+  letter-spacing: 4px;
+  font-size: 0.75em;
+  text-transform: uppercase;
 }
 
 .text-content {
+    text-align: justify;
+    text-justify: inter-word;
     padding-left: 10em;
     padding-right: 10em;
 }
@@ -230,12 +247,16 @@ body {
     padding: 50px 10px;
 }
 
-.section#about {
+.section#about,
+.section#opportunities,
+.section#future {
   padding: 50px 10%;
   text-align: left;
 }
 
-.section#about h2 {
+.section#about h2,
+.section#opportunities h2,
+.section#future h2 {
     text-align: center;
     margin: 2em 0;
 }
