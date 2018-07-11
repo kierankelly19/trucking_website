@@ -95,8 +95,6 @@ a {
 #smokey{
   height: 20em;
   width: 15em;
-  padding-left: 10em;
-  padding-right: 0em;
 }
 
 #movie-text{
@@ -108,12 +106,13 @@ a {
 
 .caption-picture {
     display: inline-block;
-    width: 30%;
+    position: relative;
 }
 
 .caption-text {
   display: inline-block;
-  width: 69%;
+  padding-left: 10em;
+  position: relative;
 }
 
 #home {
