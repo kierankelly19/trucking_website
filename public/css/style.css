@@ -249,14 +249,16 @@ body {
 
 .section#about,
 .section#opportunities,
-.section#future {
+.section#future,
+.section#importance {
   padding: 50px 10%;
   text-align: center;
 }
 
 .section#about h2,
 .section#opportunities h2,
-.section#future h2 {
+.section#future h2,
+.section#importance h2 {
     text-align: center;
     margin: 2em 0;
 }
