@@ -160,8 +160,7 @@ ul {
 }
 
 .text-content {
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: center;
     padding-left: 10em;
     padding-right: 10em;
 }
