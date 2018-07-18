@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body,
 html {
     height: 100%;
@@ -10,10 +11,6 @@ html {
     color: #666;
 }
 
-a {
-    color: inherit;
-}
-
 .smooth-scroll {
     text-decoration: none;
 }
@@ -23,7 +20,7 @@ a {
 .pimg3,
 .pimg4 {
     position: relative;
-    opacity: 0.70;
+    opacity: 1;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +28,7 @@ a {
 }
 
 .pimg1 {
-    background-image: url('../img/young_driver.jpeg');
+    background-image: url('../img/young_driver_crop.jpeg');
     min-height: 100%;
 }
 
@@ -113,58 +110,10 @@ a {
   position: relative;
 }
 
-#home {
-    position: absolute;
-    z-index: 1000;
-}
-
-li {
-    display: inline;
-}
-
-li a {
-    font-size: 2em;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-nav {
-    text-align: center;
-    border: 4px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 12px;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 0.80;
-}
-
-.navbar-link{
-  letter-spacing: 4px;
-  font-size: 0.75em;
-  text-transform: uppercase;
-}
-
 .text-content {
     text-align: center;
     padding-left: 10em;
     padding-right: 10em;
-}
-
-.nav-div {
-    opacity: 70%;
 }
 
 body {
@@ -270,32 +219,3 @@ body {
 .section#about p {
   margin-left: 4em;
 }
-
-/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css */
-button{margin:0;font:inherit;color:inherit;}
-button{overflow:visible;}
-button{text-transform:none;}
-button{-webkit-appearance:button;cursor:pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-@media print{
-*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
-}
-*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-button{font-family:inherit;font-size:inherit;line-height:inherit;}
-h4{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
-h4{margin-top:10px;margin-bottom:10px;}
-h4{font-size:18px;}
-.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px;}
-.btn:active:focus,.btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
-.btn:focus,.btn:hover{color:#333;text-decoration:none;}
-.btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125);}
-.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da;}
-.btn-info:focus{color:#fff;background-color:#31b0d5;border-color:#1b6d85;}
-.btn-info:hover{color:#fff;background-color:#31b0d5;border-color:#269abc;}
-.btn-info:active{color:#fff;background-color:#31b0d5;border-color:#269abc;}
-.btn-info:active:focus,.btn-info:active:hover{color:#fff;background-color:#269abc;border-color:#1b6d85;}
-.btn-info:active{background-image:none;}
-.collapse{display:none;}
-.collapse.in{display:block;}
-.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-duration:.35s;-o-transition-duration:.35s;transition-duration:.35s;-webkit-transition-property:height,visibility;-o-transition-property:height,visibility;transition-property:height,visibility;}
