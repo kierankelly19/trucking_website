@@ -31,7 +31,7 @@ a {
 }
 
 .pimg1 {
-    background-image: url('../img/truckline1_cropped.png');
+    background-image: url('../img/young_driver.jpeg');
     min-height: 100%;
 }
 
@@ -98,9 +98,7 @@ a {
 }
 
 #movie-text{
-  padding-right: 10em;
-  padding-left: 0em;
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -111,7 +109,7 @@ a {
 
 .caption-text {
   display: inline-block;
-  padding-left: 10em;
+
   position: relative;
 }
 
