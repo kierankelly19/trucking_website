@@ -14,7 +14,7 @@
     <script src="js/index.js"></script>
   </head>
   <body>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#home">Optimus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,6 +25,9 @@
               <a class="nav-link smooth-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#career-timeline">Career Timeline</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link smooth-scroll" href="#truth">Truth</a>
             </li>
             <li class="nav-item">
@@ -32,6 +35,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link smooth-scroll" href="#importance">Importance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#future">Future</a>
             </li>
           </ul>
         </div>
@@ -46,22 +55,70 @@
     </div>
 
     <div id="home"></div>
-      <div class="pimg1 row">
-              <div class="col-sm glass" style="background-color: rgba(255, 255, 255, .5)">
-                One of three columns
+      <div class="pimg1 row no-gutters">
+        <div class="col-sm-4 glass">
+          <div class="row justify-content-center no-gutters" style="margin-top:5em;">
+            <div class="col-10">
+              <div class="videoWrapper">
+                  <iframe width="100%" src="https://www.youtube.com/embed/RB0hgHlvZrY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-        <!-- <div class="ptext">
-          <span class="border">
-            Next Generation Trucking
-          </span>
-        </div> -->
+            </div>
+          </div>
+          <div class="row justify-content-center no-gutters" id="faqs">
+            <div class="col-10 glass mini-faq">
+              <h3><a href="#faq">FAQ</a></h3>
+              <p><b><a href="#faq-how-much-money">How much money can I expect to make?</a></b></p>
+              <p>
+                In their first year drivers earn on average $35,000. The average salary for an experienced driver (1-2 years) ranges from $45,000 to $55,000.
+              </p>
+              <p><b><a href="#faq-what-is-a-cdl">What is a CDL?</a></b></p>
+              <p>
+                A commercial driver's license (CDL) is a driver's license required to operate large or heavy vehicles. The requirements for a CDL
+                are (1) a writed general knowledge exam, (2) any additional written exams specific to the vehicle you will be driving, and (3) a 
+                basic road test.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-5">
+          <div class="row justify-content-center no-gutters" id="faqs">
+            <div class="col-10 quote">
+              <h3><a href="#quotes">Quotes</a></h3>
+              <p>
+                "Favorite thing is being in Nevada or Utah watching the sun rise over the mountains, 
+                knowing that I had no other job than to sit there, not hit other people and watch the horizon."
+                <footer class="blockquote-footer text-light">Ketofanboy on <cite title="Reddit">Reddit</cite></footer>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <section class="section section-dark" id="career-timeline">
+        <h1>Career Timeline</h1>
+        <div class="timeline">
+          <div class="timeline-container left">
+            <div class="content">
+              <h2>2017</h2>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="timeline-container right">
+            <div class="content">
+              <h2>2016</h2>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="pimg3">
+        <div class="ptext">
+        </div>
+      </div>
+
       <section class="section section-dark" id="truth">
         <div id='truth-content'>
           <h2>The Truth of Truck Driving</h2>
