@@ -1,79 +1,126 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="css/style.css">
-      <title>Start Your Career as a Truck Driver!</title>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-      <script src="js/jquery.smooth-scroll.min.js"></script>
-      <script>!window.jQuery && document.write('<script src="../optimus/jquery-1.4.1.min.js"><\/script>')</script>
-
-      <!-- The raptorize file  -->
-      <script src="../optimus/jquery.raptorize.1.0.js"></script>
-
-      <!-- For the button version -->
-      <script type="text/javascript">
-        $(window).load(function() {
-          $('.button').raptorize();
-          $('.flip').click(function(){
-              $(this).find('.card').toggleClass('flipped')
-              return true;
-          });
-        });
-      </script>
-
-      <!-- For the Konami Code version -->
-      <script type="text/javascript">
-        $(window).load(function() {
-          $('.button').raptorize({
-            'enterOn' : 'konami-code'
-          });
-        });
-      </script>
-
-      <script>
-        $( document ).ready(function() {
-          var off = -($( window ).height()-$('#future').height())/2
-          $('.smooth-scroll').smoothScroll({offset: 0, speed: 'auto', autoCoefficient: 3})
-        });
-      </script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Your Career as a Truck Driver!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="../optimus/jquery.raptorize.1.0.js"></script>
+    <script>!window.jQuery && document.write('<script src="../optimus/jquery-1.4.1.min.js"><\/script>')</script>
+    <script src="js/index.js"></script>
   </head>
-
   <body>
-    <div id="home">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid" id="nav-div">
-          <ul class="nav navbar-nav">
-            <li class="navbar-link"><a class="smooth-scroll" href="#home">Home</a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#truth">The Truth</a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#opportunities">Opportunities</a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#importance">Importance</a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#about">Overview</a></li>
-            <li class="navbar-link"><a class="smooth-scroll" href="#future">Future</a></li>
+      <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand autobot-button" href=''>Optimus</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#career-timeline">Career Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#truth">Truth</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#opportunities">Opportunities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#importance">Importance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#future">Future</a>
+            </li>
           </ul>
         </div>
       </nav>
-    </div>
 
     <div id="chat-widget">
-          <script type="text/javascript">
-          var _sz=_sz||{};_sz.appId="2242a30b",function(){var e=document.createElement("script");e.src="https://cdn.signalzen.com/signalzen.js",e.setAttribute("async","true"),document.documentElement.firstChild.appendChild(e);var t=setInterval(function(){"undefined"!=typeof SignalZen&&(clearInterval(t),new SignalZen(_sz).load())},10)}();
+      <script type="text/javascript">
+        var _sz=_sz||{};_sz.appId="2242a30b",function(){var e=document.createElement("script");
+        e.src="https://cdn.signalzen.com/signalzen.js",e.setAttribute("async","true"),document.documentElement.firstChild.appendChild(e);
+        var t=setInterval(function(){"undefined"!=typeof SignalZen&&(clearInterval(t),new SignalZen(_sz).load())},10)}();
       </script>
     </div>
 
-
-      <div class="pimg1">
-        <div class="ptext">
-          <span class="border">
-            Next Generation Trucking
-          </span>
+    <div id="home"></div>
+      <div class="pimg1 row no-gutters">
+        <div class="col-sm-4 glass">
+          <div class="row justify-content-center no-gutters" style="margin-top:5em;">
+            <div class="col-10">
+              <div class="videoWrapper">
+                  <iframe width="100%" src="https://www.youtube.com/embed/RB0hgHlvZrY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center no-gutters" id="faqs">
+            <div class="col-10 glass mini-faq">
+              <h3><a href="#faq">FAQ</a></h3>
+              <p><b><a href="#faq">How much money can I expect to make?</a></b></p>
+              <p>
+                In their first year drivers earn on average $35,000. The average salary for an experienced driver (1-2 years) ranges from $45,000 to $55,000.
+              </p>
+              <p><b><a href="#how-much-money">What is a CDL?</a></b></p>
+              <p>
+                A commercial driver's license (CDL) is a driver's license required to operate large or heavy vehicles. The requirements for a CDL
+                are (1) a writed general knowledge exam, (2) any additional written exams specific to the vehicle you will be driving, and (3) a 
+                basic road test.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-5">
+          <div class="row justify-content-center no-gutters" id="faqs">
+            <div class="col-10 quote">
+              <h3><a href="#quotes">Quotes</a></h3>
+              <p>
+                "Favorite thing is being in Nevada or Utah watching the sun rise over the mountains, 
+                knowing that I had no other job than to sit there, not hit other people and watch the horizon."
+                <footer class="blockquote-footer text-light">Ketofanboy on <cite title="Reddit">Reddit</cite></footer>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <section class="section section-dark" id="career-timeline">
+        <h1>Career Timeline</h1>
+        <div class="timeline">
+          <div class="timeline-container left">
+            <div class="content">
+              <h2>2017</h2>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="timeline-container right">
+            <div class="content">
+              <h2>2016</h2>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="pimg3">
+        <div class="ptext">
+        </div>
+      </div>
+
       <section class="section section-dark" id="truth">
         <div id='truth-content'>
           <h2>The Truth of Truck Driving</h2>
@@ -148,7 +195,7 @@
               <div class="face front">
                 <b>Stereotype:</b>
                 <br>
-                Truck drivers are dirty and overweight.
+                Truck drivers are unhealthy.
               </div>
               <div class="face back">
                 <b>Truth:</b>
@@ -207,7 +254,7 @@
 
       <div class="pimg2">
         <div class="ptext">
-          <span class="border trans">
+          <span class="trans">
             Image 2 Text
           </span>
         </div>
@@ -256,7 +303,7 @@
 
       <div class="pimg3">
         <div class="ptext">
-          <span class="border trans">
+          <span class="trans">
             Image 3 Text
           </span>
         </div>
@@ -315,56 +362,106 @@
 
       <div class="pimg4">
         <div class="ptext">
-          <span class="border trans">
+          <span class="trans">
             Explore:<p>"Redwood Forest to the gulf stream waters"</p>
           </span>
         </div>
       </div>
 
-      <section class="section section-dark" id="about">
-        <h2>Driving Overview</h2>
-        <h3>Compensation</h3>
-        <p>
-          In their first year drivers earn on average $35,000. The average salary for an experienced driver (1-2 years) ranges from $45,000 to $55,000.
-        </p>
-        <h3>CDL Process</h3>
-        <p>
-          The process for obtaining a Commercial Drivers License (CDL) is very similar to getting your standard driver's license.
-          There are optional classroom and behind-the-wheel programs that can be valuable in helping you learn to safely maneuver the vehicle.
-          The requirements for a CDL are: a written <b>general knowledge exam</b>, any <b>additional written exams</b> specific to the vehicle you will be driving, and a basic <b>road test</b>.
-        </p>
-        <p>
-          You only need to be 18 years old to get a Class A CDL, which will allow you to drive within state until you are 21.
-          The test only costs $24.25 for those under 24 years old. This gives young drivers the chance to get valuable practice
-          closer to home before they go on longer trips.
-          For more information visit: <a href='https://www.dmv.org/apply-cdl.php'>www.dmv.org</a>
-        </p>
-        <h3>Types of Drivers</h3>
-        <h5>Dry Van Drivers</h5>
-		      <p>Single trailer vehicles with non-perishable goods. Common for new drivers.</p>
-        <h5>Flatbed Drivers</h5>
-          <p>Drivers must secure goods such as vehicles, odd shaped items, military equipment, and oversized freight onto the trailer.</p>
-        <h5>Tanker Drivers</h5>
-          <p>Transport liquids from gasoline and milk to chemicals, gases and cement. Need to act fast in case of emergency.</p>
-        <h5>Refrigerated Freight Drivers</h5>
-          <p>Includes medical goods, food, and other refrigerated items. Driver needs to maintain the truck temperature.</p>
-        <h5>Freight Haulers</h5>
-          <p>A term for any driver that regularly pulls dry van, refrigerated freight, tanker or flatbed.</p>
-        <h5>LTL Freight Drivers</h5>
-          <p>"Less than truckload" means smaller shipments over shorter distances. Drivers typically unload their own trucks.</p>
-        <h5>Local/Regional/OTR</h5>
-          <p>Local drivers stay in or near their city. Regional drive around the state. "Over the road" drivers travel across country.</p>
-        <h3>Driver Shortage</h3>
-          <p>
-            Currently there is a driver shortage of around 51,000 drivers. It is expected to grow to over 330,000 drivers by 2024 at the current rate.
-            You could be part of the solution. If driving sounds interesting to you sign up for a class today!
-          </p>
+      <section class="section section-light" id="faq">
+        <h2>Frequently Asked Questions</h2>
 
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="how-much-money">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-how-much-money" aria-expanded="true" aria-controls="collapse-how-much-money">
+                  How much money can I expect to make?
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapse-how-much-money" class="collapse show" aria-labelledby="how-much-money" data-parent="#accordionExample">
+              <div class="card-body">
+                In their first year drivers earn on average $35,000. The average salary for an experienced driver (1-2 years) ranges from $45,000 to $55,000.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="what-is-cdl">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-what-is-cdl" aria-expanded="false" aria-controls="collapse-what-is-cdl">
+                  What is a CDL?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse-what-is-cdl" class="collapse" aria-labelledby="what-is-cdl" data-parent="#accordionExample">
+              <div class="card-body">
+                A commercial driver's license (CDL) is a driver's license required to operate large or heavy vehicles. The requirements for a CDL are (1) a writed general knowledge exam, (2) any additional written exams specific to the vehicle you will be driving, and (3) a basic road test.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="cdl-under-21">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-cdl-under-21" aria-expanded="false" aria-controls="collapse-cdl-under-21">
+                  Can I get a CDL if I am under 21?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse-cdl-under-21" class="collapse" aria-labelledby="cdl-under-21" data-parent="#accordionExample">
+              <div class="card-body">
+                You only need to be 18 years old to get a Class A CDL, which will allow you to drive within state. Once you turn 21 you will be allowed to drive across state lines
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="types-of-drivers">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-types-of-drivers" aria-expanded="false" aria-controls="collapse-types-of-drivers">
+                  What types of drivers are there?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse-types-of-drivers" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <h5>Dry Van Drivers</h5>
+                  <p>Single trailer vehicles with non-perishable goods. Common for new drivers.</p>
+                <h5>Flatbed Drivers</h5>
+                  <p>Drivers must secure goods such as vehicles, odd shaped items, military equipment, and oversized freight onto the trailer.</p>
+                <h5>Tanker Drivers</h5>
+                  <p>Transport liquids from gasoline and milk to chemicals, gases and cement. Need to act fast in case of emergency.</p>
+                <h5>Refrigerated Freight Drivers</h5>
+                  <p>Includes medical goods, food, and other refrigerated items. Driver needs to maintain the truck temperature.</p>
+                <h5>Freight Haulers</h5>
+                  <p>A term for any driver that regularly pulls dry van, refrigerated freight, tanker or flatbed.</p>
+                <h5>LTL Freight Drivers</h5>
+                  <p>"Less than truckload" means smaller shipments over shorter distances. Drivers typically unload their own trucks.</p>
+                <h5>Local/Regional/OTR</h5>
+                  <p>Local drivers stay in or near their city. Regional drive around the state. "Over the road" drivers travel across country.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="driver-shortage">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-driver-shortage" aria-expanded="false" aria-controls="collapse-driver-shortage">
+                  What is the driver shortage?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse-driver-shortage" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Currently there is a driver shortage of around 51,000 drivers. It is expected to grow to over 330,000 drivers by 2024 at the current rate. You could be part of the solution. If driving sounds interesting to you sign up for a class today!
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <div class="pimg3">
         <div class="ptext">
-          <span class="border trans">
+          <span class="trans">
             Robots, Flying cars. THE FUTURE!
           </span>
         </div>
@@ -438,6 +535,6 @@
           </span>
         </div>
       </div>
-    <p><input type="image" src="img/autobots_cropped.png" class="button" id="autobots"></p>
+    <!-- <p><input type="image" src="img/autobots_cropped.png" class="button" id="autobots"></p> -->
 
   </body>
