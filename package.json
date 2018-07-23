@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/kdmcnamara/trucking_website#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "crest": "0.0.4",
     "express": "^4.16.3",
+    "mongodb": "~3.0.8",
+    "mongoose": "^5.2.4",
     "nodemon": "^1.17.5"
   },
   "devDependencies": {
