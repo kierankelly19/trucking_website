@@ -431,3 +431,18 @@ body {
         left: 0%;
     }
 }
+.btn-lock {
+    width: 200px;
+    display: inline-block;
+    position: fixed;
+    top: 70%;
+    right: 0;
+}
+
+.rotated {
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform-origin: top right;
+}
