@@ -1,7 +1,7 @@
 $(window).load(function() {
-    $('.button').raptorize();
+    $('.autobot-button').raptorize();
 
-    $('.button').raptorize({
+    $('.autobot-button').raptorize({
         'enterOn' : 'konami-code'
       });
 
