@@ -17,4 +17,13 @@ var infoModel = new Schema({
   }
 });
 
-module.exports = mongoose.model('Info', infoModel);
+// var Info = mongoose.model('information', infoModel);
+// Info.create({
+//   name: "Kevin",
+//   email: "kdmcnamara@wisc.edu",
+//   age: 18,
+//   comment: "asd"
+// }).then(function(err, info) {
+//   console.log(err, info);
+// });
+module.exports = mongoose.model('info', infoModel);
