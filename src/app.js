@@ -21,26 +21,38 @@ app.use(parser.json());
 app.use(parser.urlencoded({ extended: false }));
 
 
+
   app.get('/api/info', function(req, res) {
     Info.find(function(err, infos) {
       if(err) {
         console.log(err);
       } else {
+
 				res.json(infos);
       }
     });
   })
   app.post('/api/info', function(req, res) {
+		if(req.body.gender.male) {
+			req.body.gender = "male";
+		}
+		if(req.body.gender.female) {
+			req.body.gender = "female";
+		}
+		if(req.body.gender.noanswer) {
+			req.body.gender = "noanswer";
+		}
 		Info.create({
 			name: req.body.name,
 			email: req.body.email,
 			age: req.body.age,
+			gender: req.body.gender,
 			comment: req.body.comment
 	}, function(err, info) {
 		if(err) {
 			return res.status(500).json({err: err.message});
 		}
-			res.json({'email': info, message: 'Email Created!'});
+			res.json({'info': info, message: 'User info created!'});
 	});
 	});
 

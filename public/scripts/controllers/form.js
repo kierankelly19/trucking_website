@@ -3,7 +3,7 @@ angular.module('truckinApp')
 
 	$scope.formData = {};
 
-    $scope.createEmail = function() {
+    $scope.submitForm = function() {
 
         $http.post('/api/info', $scope.formData)
         .success(function(data) {
@@ -12,6 +12,8 @@ angular.module('truckinApp')
                 $scope.info = data;
                 console.log(data);
             })
+            
+
 
     }
 

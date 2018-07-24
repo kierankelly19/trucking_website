@@ -446,3 +446,7 @@ body {
     -webkit-transform:rotate(90deg);
     transform-origin: top right;
 }
+
+.formaway {
+  display: none;
+}

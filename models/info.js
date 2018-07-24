@@ -12,6 +12,9 @@ var infoModel = new Schema({
   age: {
     type: Number
   },
+  gender: {
+    type: String
+  },
   comment: {
     type: String
   }
