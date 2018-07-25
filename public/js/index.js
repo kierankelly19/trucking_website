@@ -5,10 +5,12 @@ $(window).load(function() {
         'enterOn' : 'konami-code'
       });
 
-    $('.flip').click(function(){
-        $(this).find('.card').toggleClass('flipped')
+    $('.card-flip').click(function(){
+        $(this).find('.flip').toggleClass('flipped')
         return true;
     });
 
     $('.smooth-scroll').smoothScroll({offset: 0, speed: 'auto', autoCoefficient: 3})
+
+    document.querySelector(".card-flip").classList.toggle("flip");
 });
