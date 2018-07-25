@@ -274,9 +274,9 @@ body {
     margin-left: 2em;
 }
 
-.section#faq p {
+/* .section#faq p {
   margin-left: 4em;
-}
+} */
 
 .accordion {
     color: #0a0a0a
@@ -286,11 +286,22 @@ body {
     text-align: left;
 }
 
+.accordion .card h5 button {
+    white-space: normal;
+}
+
 .accordion .card-body {
     text-align: left;
 }
 
+#truck_ad_1 {
+    max-width: 90%;
+}
 
+.card-title,
+.card-text {
+    color: #0a0a0a;
+}
 
 #career-timeline h1 {
     margin-bottom: 1em;
