@@ -4,8 +4,8 @@
   "description": "node.js project for trucking website",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "test": "mocha",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,18 @@
   },
   "homepage": "https://github.com/kdmcnamara/trucking_website#readme",
   "dependencies": {
+    "angular": "^1.7.2",
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "js-yaml": "^3.12.0",
+    "json2yaml": "^1.1.0",
+    "mongodb": "~3.0.8",
+    "mongoose": "^5.2.4",
     "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.1.0"
   }
 }
