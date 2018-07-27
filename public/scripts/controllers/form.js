@@ -4,7 +4,7 @@ angular.module('truckinApp')
 	$scope.formData = {};
 
     $scope.submitForm = function() {
-
+			console.log($scope.formData);
         $http.post('/api/info', $scope.formData)
         .success(function(data) {
 
@@ -12,7 +12,7 @@ angular.module('truckinApp')
                 $scope.info = data;
                 console.log(data);
             })
-            
+
 
 
     }

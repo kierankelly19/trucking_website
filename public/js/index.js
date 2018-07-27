@@ -12,5 +12,5 @@ $(window).load(function() {
 
     $('.smooth-scroll').smoothScroll({offset: 0, speed: 'auto', autoCoefficient: 3})
 
-    document.querySelector(".card-flip").classList.toggle("flip");
+    // document.querySelector(".card-flip").classList.toggle("flip");
 });
