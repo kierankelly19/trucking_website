@@ -180,9 +180,7 @@ html {
 body {
     background: #ccc;
 }
-.card-height {
-  height: 85%;
-}
+
 .card-flip {
     perspective: 1000px;
     transform: rotateY(0);
