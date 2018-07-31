@@ -505,3 +505,8 @@ body {
 .tooltip1:hover .tooltiptext {
     visibility: visible;
 }
+
+
+.quote-card {
+    color: black;
+}
