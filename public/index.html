@@ -9,14 +9,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="js/jquery.smooth-scroll.min.js"></script>
     <script src="../optimus/jquery.raptorize.1.0.js"></script>
     <script>!window.jQuery && document.write('<script src="../optimus/jquery-1.4.1.min.js"><\/script>')</script>
     <script src="js/index.js"></script>
   </head>
   <body ng-app="truckinApp">
       <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand smooth-scroll" href='#home'>Optimus</a>
+        <a class="navbar-brand smooth-scroll" href='#home'>Next Generation Truckers</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -160,25 +161,17 @@
           Trucks help your companies grow and move at a steady pace as well as the whole nation.
           Without the help of truck drivers, you can say goodbye to globalization.
           The American economy and other economies around the world would be completely destroyed with nothing to move the imports and exports.
-          Major manufacturers would have to shut down assembly lines due to the lack of components, leaving thousands of people without jobs.
-        </p>
-        <img src="img/truck_ad1.png" id="truck_ad_1">
-        <h4><b>Vulnerable Communities and Companies</b></h4>
-        <p>
-          If a truck stops, businesses will be greatly affected within a short 24 hours.
-          For example, if there is a natural disaster such as a hurricane or earthquake,
-          brave men and women drivers leave their families and risk their lives to make sure communities get their much-needed supplies.
-          If the trucking industry shut down, gas stations would soon run out of fuel,
-          grocery stores would run low on food and hospitals would not have access to medicine they need in order to save lives and give people the gift of having their loved ones alive and healthy.
-        </p>
-        <h4><b>Tanked Health Conditions</b></h4>
-        <p>
-          Between scarce health supplies as well as food and water shortages, America would sink.
-          Without truck drivers, we can’t have what we need, fast.
-          The environment would even slowly become polluted with trash left on the streets and in waterways.
+          Major manufacturers would have to shut down leaving thousands of people without jobs.
+          If the trucking industry shut down, gas stations would soon run out of fuel, grocery stores would run low on food,
+          and hospitals would not have access to medicine they need in order to save lives and give people the gift of having their loved ones alive and healthy.
           This is not the pretty picture we would like to see, but, it is the true reality of the way we would live without truck drivers help.
           Trucking makes the world a healthier, cleaner, and better place to live and we truly could not survive without them.
         </p>
+        <br><br>
+        <div id="truck_ad_1_div">
+          <img src="img/truck_ad1.png" id="truck_ad_1">
+        </div>
+        <br><br>
         <h4><b>MAKE A DIFFERENCE</b></h4>
         <p>
           America relies on the trucking industry and <b>America needs drivers.</b>
@@ -186,7 +179,7 @@
         </p>
       </section>
 
-      <div class="pimg4"></div>
+      <div class="pimg2"></div>
 
       <section class="section section-light" id="faq">
         <h2>Frequently Asked Questions</h2>
@@ -230,7 +223,10 @@
             </div>
             <div id="collapse-cdl-under-21" class="collapse" aria-labelledby="cdl-under-21" data-parent="#accordionExample">
               <div class="card-body">
-                You only need to be 18 years old to get a Class A CDL, which will allow you to drive within state. Once you turn 21 you will be allowed to drive across state lines
+                Currently you only need to be 18 years old to get a Class A CDL, which will allow you to drive within state. 
+                Once you turn 21 you will be allowed to drive across state lines. 
+                This soon may change to allow anyone with a CDL drive across state lines even if they are under 21.
+                A bill was introduced in March to lower the interstate driving age to 18 as long as driver pass the correct tests to get a CDL.
               </div>
             </div>
           </div>
@@ -375,9 +371,25 @@
           </div>
         </div>
       </section>
-
+      <div class="pimg4"></div>
       <section class="section section-dark" id="testimonials">
         <h2>Testimonials</h2>
+        <div class='row justify-content-center'>
+          <div class='col-md-6'>
+            <div class="card quote-card">
+              <div class="card-header">
+                Quote
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Favorite thing is being in Nevada or Utah watching the sun rise over the mountains,
+                    knowing that I had no other job than to sit there, not hit other people and watch the horizon.</p>
+                  <footer class="blockquote-footer">Ketofanboy on <cite title="Reddit">Reddit</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
         <h3>Stereotypes</h3>
         <div class="row">
           <div class="col-lg-3 col-md-6">

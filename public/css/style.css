@@ -47,6 +47,15 @@ html {
     min-height: 600px;
 }
 
+@media(max-width:568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4 {
+    background-attachment: scroll;
+  }
+}
+
 .section {
     text-align: center;
     padding: 50px 10px;
@@ -233,7 +242,7 @@ body {
 .section#future,
 .section#importance {
   padding: 50px 10%;
-  text-align: center;
+  text-align: left;
 }
 
 .section#faq h2,
@@ -273,6 +282,9 @@ body {
 
 #truck_ad_1 {
     max-width: 90%;
+}
+#truck_ad_1_div{
+  text-align: center;
 }
 
 .card-title,
@@ -492,4 +504,9 @@ body {
 
 .tooltip1:hover .tooltiptext {
     visibility: visible;
+}
+
+
+.quote-card {
+    color: black;
 }
