@@ -452,61 +452,40 @@ body {
 .formaway {
   display: none;
 }
+.pop {
+    display: none;
+}
 
 .btn-lock1 {
-    width: 100px;
-    height: 100px;
+    width: 129px;
+    height: 29px;
     display: inline-block;
     position: fixed;
-    top: 86%;
-    right: 14px;
-}
-
-.rotated {
-    -moz-transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    -o-transform:rotate(90deg);
-    transform: rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    transform-origin: top right;
-}
-
-.tooltip1 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip1 .tooltiptext {
-    visibility: hidden;
-    width: 130px;
-    background-color: #E0E0E0;
-    color: #505050;
+    top: 81%;
+    right: 89px;
+    border: 1px solid #707070;
+    color: #fff;
+    background-color: #707070;
+    border-radius: 15px;
     text-align: center;
-    border-radius: 30px;
-    padding: 9px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 93%;
-    left: 30%;
-    margin-left: -53px;
 }
 
-.tooltip1 .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: 1px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #E0E0E0 transparent transparent transparent;
+.icon-pos {
+    display: inline-block;
+    position: fixed;
+    top: 82%;
+    right: 47px;
+    color: #707070;
 }
+/*.rotated {*/
+    /*-moz-transform:rotate(90deg);*/
+    /*-ms-transform:rotate(90deg);*/
+    /*-o-transform:rotate(90deg);*/
+    /*transform: rotate(90deg);*/
+    /*-webkit-transform:rotate(90deg);*/
+    /*transform-origin: top right;*/
+/*}*/
 
-.tooltip1:hover .tooltiptext {
-    visibility: visible;
-}
 
 
 .quote-card {
