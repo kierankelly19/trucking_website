@@ -215,6 +215,7 @@ body {
 .front,
 .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -465,6 +466,7 @@ body {
     -moz-transform:rotate(90deg);
     -ms-transform:rotate(90deg);
     -o-transform:rotate(90deg);
+    transform: rotate(90deg);
     -webkit-transform:rotate(90deg);
     transform-origin: top right;
 }
